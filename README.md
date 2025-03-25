@@ -1,18 +1,18 @@
-# MySysLog Project
+# bos2.1 Project
 
-Проект для системного журналирования с поддержкой различных форматов вывода.
+Extendable syslog library and utilities for Linux systems.
 
-## Структура проекта
+## Project Structure
 
-- `libmysyslog` - основная библиотека журналирования
-- `libmysyslog-text` - драйвер для текстового формата
-- `libmysyslog-json` - драйвер для JSON формата
-- `mysyslog-client` - тестовое клиентское приложение
-- `mysyslog-daemon` - демон журналирования
+- `libmysyslog` - Core logging library
+- `libmysyslog-text` - Text format driver plugin
+- `libmysyslog-json` - JSON format driver plugin
+- `libmysyslog-client` - Test client application
+- `libmysyslog-daemon` - Logging daemon
 
-## Сборка
+## Building
 
-Для сборки проекта выполните:
+To build all components:
 
 ```bash
 make all
