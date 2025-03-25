@@ -1,80 +1,22 @@
-# Prerequisites
-*.d
+# mysyslog - Расширяемая система журналирования
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+Проект представляет собой набор библиотек и утилит для журналирования в различных форматах.
 
-# Linker output
-*.ilk
-*.map
-*.exp
+## Структура проекта
 
-# Precompiled Headers
-*.gch
-*.pch
+- `libmysyslog` - Основная библиотека журналирования
+- `libmysyslog-text` - Драйвер для текстового формата журнала
+- `libmysyslog-json` - Драйвер для JSON формата журнала
+- `libmysyslog-client` - Клиентское приложение
+- `libmysyslog-daemon` - Демон журналирования
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+## Сборка и установка
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+Для сборки проекта требуется:
+- Компилятор GCC
+- CMake (версия 3.10 или выше)
+- GNU Make
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-# Объектные файлы
-*.o
-*.ko
-*.obj
-*.elf
-
-# Библиотеки
-*.a
-*.so
-*.so.*
-*.dylib
-
-# Исполняемые файлы
-*.exe
-*.out
-*.app
-
-# Файлы сборки
-/build/
-/debian/
-*.deb
-
-# Резервные копии
-*~
-*.bak
-
-# Отладочная информация
-*.dSYM/
+Сборка:
+```bash
+make all
