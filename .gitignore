@@ -1,26 +1,12 @@
-# Объектные файлы
 *.o
-*.ko
-*.obj
-*.elf
-
-# Библиотеки
-*.a
 *.so
-*.so.*
-*.dylib
-
-# Исполняемые файлы
-*.exe
+*.a
 *.out
-*.app
-
-# Файлы сборки
+*.log
+*.deb
+/bin/
+/obj/
 /build/
-/deb-packages/
-
-# Файлы редактора/IDE
-.vscode/
 *.swp
 *.swo
-*~
+.DS_Store
