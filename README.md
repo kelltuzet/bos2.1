@@ -1,18 +1,8 @@
-# bos2.1 Project
+# bos2.1 
 
-Extendable syslog library and utilities for Linux systems.
+Система логирования с поддержкой текстового и JSON форматов
 
-## Project Structure
-
-- `libmysyslog` - Core logging library
-- `libmysyslog-text` - Text format driver plugin
-- `libmysyslog-json` - JSON format driver plugin
-- `libmysyslog-client` - Test client application
-- `libmysyslog-daemon` - Logging daemon
-
-## Building
-
-To build all components:
-
+## Сборка
 ```bash
 make all
+make deb
