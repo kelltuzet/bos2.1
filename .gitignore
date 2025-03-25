@@ -50,3 +50,31 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+# Объектные файлы
+*.o
+*.ko
+*.obj
+*.elf
+
+# Библиотеки
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+
+# Файлы сборки
+/build/
+/debian/
+*.deb
+
+# Резервные копии
+*~
+*.bak
+
+# Отладочная информация
+*.dSYM/
