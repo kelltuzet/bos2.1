@@ -1,19 +1,26 @@
-# Общие исключения
+# Объектные файлы
 *.o
+*.ko
+*.obj
+*.elf
+
+# Библиотеки
 *.a
 *.so
-*.dll
+*.so.*
+*.dylib
+
+# Исполняемые файлы
 *.exe
 *.out
-*.log
+*.app
 
-# Каталоги сборки
-build/
-bin/
-obj/
+# Файлы сборки
+/build/
+/deb-packages/
 
-# Файлы IDE
+# Файлы редактора/IDE
 .vscode/
-.idea/
-*.suo
-*.user
+*.swp
+*.swo
+*~
